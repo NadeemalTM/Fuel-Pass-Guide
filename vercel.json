@@ -4,7 +4,8 @@
   "framework": "nextjs",
   "outputDirectory": ".next",
   "env": {
-    "NODE_ENV": "production"
+    "NODE_ENV": "production",
+    "NEXT_IGNORE_INCORRECT_LOCKFILE": "1"
   },
   "rewrites": [
     {
