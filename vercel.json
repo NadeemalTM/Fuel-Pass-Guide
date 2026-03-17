@@ -6,11 +6,6 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "functions": {
-    "api/**/*.{js,ts}": {
-      "maxDuration": 60
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)(\\.json$|/)$",
