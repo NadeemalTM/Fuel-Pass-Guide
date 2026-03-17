@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { RootLayoutClient } from "./RootLayoutClient";
 
@@ -38,6 +39,14 @@ export default function RootLayout({
         <RootLayoutClient>
           {children}
         </RootLayoutClient>
+        <Script
+          src="https://pl28931965.effectivegatecpm.com/59/72/55/59725515218470db28da2a00b3f0f458.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="https://pl28931977.effectivegatecpm.com/43/45/ff/4345ff1cad6a3a0edde35cad6c6210db.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
