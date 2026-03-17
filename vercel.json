@@ -3,12 +3,9 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "outputDirectory": ".next",
-  "env": [
-    {
-      "key": "NODE_ENV",
-      "value": "production"
-    }
-  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
   "functions": {
     "api/**/*.{js,ts}": {
       "maxDuration": 60
