@@ -16,7 +16,7 @@ export default function HeroSection() {
     <section className="relative text-white overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1559034109-8f9e95fd43a6?auto=format&fit=crop&w=2000&q=80"
+          src="https://cdn.newsfirst.lk/english-uploads/2026/03/WEB%20(9)-830930.jpg"
           alt="Fuel station fueling background"
           fill
           priority
