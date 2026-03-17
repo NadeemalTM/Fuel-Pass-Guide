@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslation } from '@/i18n/useTranslation';
+import Image from 'next/image';
 import StepCard from './StepCard';
 import { ExternalLink } from 'lucide-react';
 
@@ -19,6 +20,21 @@ export default function GuideSection() {
             {t.nav.guide}
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">{t.hero.description}</p>
+        </div>
+
+        <div className="relative h-44 sm:h-56 rounded-2xl overflow-hidden mb-10 border border-blue-100 dark:border-gray-700 shadow-lg">
+          <Image
+            src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80"
+            alt="Decorative road journey background"
+            fill
+            sizes="100vw"
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/65 via-blue-800/40 to-transparent" />
+          <div className="absolute left-4 sm:left-6 bottom-4 sm:bottom-6 text-white">
+            <p className="text-xs sm:text-sm uppercase tracking-[0.2em] text-blue-100">Fuel Pass</p>
+            <p className="text-lg sm:text-2xl font-semibold">Quick steps for registration and login</p>
+          </div>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
